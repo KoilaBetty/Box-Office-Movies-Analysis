@@ -44,20 +44,9 @@ To understand more about what features of these movies that lead to them getting
 
 We'll only check the correlations with some kind of numeric data type.
 
-![alt text](image-1.png)
+![alt text](Images/image-1.png)
 
-![alt text](image-2.png)
-
-
-#### Interprate the Correlations
-
-As shown above we can note that the correlation between the diffrent variables:
-
-- The correlation coefficient between popularity and vote_average is 0.057. Since it is close to zero this suggests a very weak positive relationship between these two variables. Since the correlation is weak, it suggests that there isn't a strong tendency for movies with higher popularity ratings to have higher vote_average ratings, or vice versa.
-
-- The correlation coefficient between popularity and vote_count is 0.69. Its is relatively high, indicating a noticeable positive linear relationship  between these two variables.Since the correlation is moderately strong, it suggests that there is a tendency for movies with higher popularity ratings to have higher vote_counts, and vice versa. In other words, movies that are more popular tend to have received more votes.
-
-- The correlation coefficient  between vote average and vote_count is 0.079.Suggests a very weak positive relationship,indicating that there is little to no linear relationship between these two variables.Shows there isn't a strong tendency for movies with higher vote counts to have higher average ratings, or vice versa.
+![alt text](Images/image-2.png)
 
 
 #### Interprate the Correlations
@@ -71,14 +60,25 @@ As shown above we can note that the correlation between the diffrent variables:
 - The correlation coefficient  between vote average and vote_count is 0.079.Suggests a very weak positive relationship,indicating that there is little to no linear relationship between these two variables.Shows there isn't a strong tendency for movies with higher vote counts to have higher average ratings, or vice versa.
 
 
-![alt text](image-3.png)
+#### Interprate the Correlations
+
+As shown above we can note that the correlation between the diffrent variables:
+
+- The correlation coefficient between popularity and vote_average is 0.057. Since it is close to zero this suggests a very weak positive relationship between these two variables. Since the correlation is weak, it suggests that there isn't a strong tendency for movies with higher popularity ratings to have higher vote_average ratings, or vice versa.
+
+- The correlation coefficient between popularity and vote_count is 0.69. Its is relatively high, indicating a noticeable positive linear relationship  between these two variables.Since the correlation is moderately strong, it suggests that there is a tendency for movies with higher popularity ratings to have higher vote_counts, and vice versa. In other words, movies that are more popular tend to have received more votes.
+
+- The correlation coefficient  between vote average and vote_count is 0.079.Suggests a very weak positive relationship,indicating that there is little to no linear relationship between these two variables.Shows there isn't a strong tendency for movies with higher vote counts to have higher average ratings, or vice versa.
+
+
+![alt text](Images/image-3.png)
 
 ## 2.4 Profitable Movies
 
 In order to determine the profitability of the movies produced.We get to look at the net profit of the movies both Domestic and Worldwide and determine which movies made the most income.
 
 
-![alt text](image-4.png)
+![alt text](Images/image-4.png)
 
 
 ## 2.5 Return on Investment for the movies 
@@ -86,7 +86,7 @@ In order to determine the profitability of the movies produced.We get to look at
 By establishing the return per investment of every movie and then establish the top ten movies with the highest return per investment.This is determined by analysing the cost of production againist the total gross income and this is displayed as percentage of the profit over the cost used to peoduce the movie
 
 
-![alt text](image-5.png)
+![alt text](Images/image-5.png)
 
 ## Top 10 most profitable movies Studios.
 
@@ -96,5 +96,5 @@ Then, we sort the DataFrame based on total gross in descending order to identify
 Optionally, we select the columns 'title', 'total_gross', 'year', and 'studio' to display the top 10 most profitable movies along with their shooting dates and studios.
 
 
-![alt text](image-6.png)
+![alt text](Images/image-6.png)
 
